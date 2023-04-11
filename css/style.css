@@ -28,15 +28,11 @@ body{
     background-color: black;
 }
 
-header{
-    height: 80px;
-    background-color: aquamarine;
-}
 
 .container{
     width: 80%;
     margin: 0 auto;
-    height: 800px;
+    height: 850px;
     color: white;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -71,3 +67,15 @@ footer{
 .footer-nav div{
     background-color: chartreuse;
 }
+
+.button{
+    background-color: #4a4a4a;
+    opacity: 0.8;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    font-size: 0.85rem;
+}
+
+
