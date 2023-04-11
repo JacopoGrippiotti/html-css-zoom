@@ -16,3 +16,8 @@ header{
     height: 80px;
     background-color: aquamarine;
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
