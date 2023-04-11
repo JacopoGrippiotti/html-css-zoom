@@ -36,9 +36,10 @@ body{
 }
 
 .card{
-    width:calc( (100% / 7) - 8px );
+    width:calc( (100% / 7) - 7px );
     margin-top: 9px;
     margin-right: 5px;
+    position: relative;
 }
 
 footer{
@@ -74,10 +75,22 @@ footer{
 }
 
 .zoom-photo{
-    height: 150px;
     width: 100%;
+    height: 150px;
 }
 
 .button-container{
     padding-bottom: 30px;
 }
+
+div.text-white{
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 3%;
+    font-size: 0.80rem;
+    background-color: rgba(115,124,133,0.5);
+    padding: 2px;
+}
+
+
