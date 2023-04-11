@@ -31,12 +31,19 @@ header{
 .container{
     width: 80%;
     margin: 0 auto;
-    height: 80vh;
+    height: 800px;
     color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .card{
     width:calc( (100% / 7) - 20px );
     background-color: brown;
     height: 120px;
+}
+
+footer{
+    background-color: coral;
+    height: 50px;
 }
