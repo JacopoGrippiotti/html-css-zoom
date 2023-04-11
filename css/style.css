@@ -11,3 +11,8 @@
 body{
     background-color: black;
 }
+
+header{
+    height: 80px;
+    background-color: aquamarine;
+}
