@@ -19,6 +19,11 @@
     flex-wrap: wrap;
 }
 
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
 body{
     background-color: black;
 }
