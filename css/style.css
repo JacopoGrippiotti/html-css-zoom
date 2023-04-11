@@ -12,6 +12,9 @@
     justify-content: space-between;
 }
 
+.align-between{
+    align-content:space-between;
+}
 .wrap{
     flex-wrap: wrap;
 }
@@ -28,11 +31,11 @@ header{
 .container{
     width: 80%;
     margin: 0 auto;
+    height: 80vh;
 }
 
 .card{
-    width:calc(100% / 7);
+    width:calc( (100% / 7) - 20px );
     background-color: brown;
-    height: 80px;
-    margin: 10px;
+    height: 120px;
 }
