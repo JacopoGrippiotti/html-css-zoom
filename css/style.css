@@ -8,6 +8,10 @@
     display: flex;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
 body{
     background-color: black;
 }
@@ -20,4 +24,11 @@ header{
 .container{
     width: 80%;
     margin: 0 auto;
+}
+
+.card{
+    width:calc(100% / 7);
+    background-color: brown;
+    height: 50px;
+    margin-bottom: 20px;
 }
