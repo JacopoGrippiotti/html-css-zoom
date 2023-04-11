@@ -52,3 +52,22 @@ footer{
     background-color: coral;
     height: 50px;
 }
+
+.footer-nav{
+    height: 100%;
+}
+
+.video-audio,
+.end-meeting{
+    width: 15%;
+    height: 100%;
+}
+
+.zoom-options{
+    width: 40%;
+    height: 100%;
+}
+
+.footer-nav div{
+    background-color: chartreuse;
+}
