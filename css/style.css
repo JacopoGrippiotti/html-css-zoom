@@ -12,6 +12,10 @@
     justify-content: space-between;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 body{
     background-color: black;
 }
@@ -29,6 +33,6 @@ header{
 .card{
     width:calc(100% / 7);
     background-color: brown;
-    height: 50px;
-    margin-bottom: 20px;
+    height: 80px;
+    margin: 10px;
 }
