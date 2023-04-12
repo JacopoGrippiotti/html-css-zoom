@@ -83,7 +83,7 @@ footer{
 }
 
 .button-container{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 div.text-white{
@@ -100,8 +100,7 @@ div.text-white{
     text-align: center;
 }
 
-.left-nav,
-.right-nav{
+.left-nav{
     width: 15%;
 }
 
@@ -110,8 +109,10 @@ div.text-white{
 }
 
 div.left-nav  ,
-div.center-nav{
+div.center-nav,
+div.right-nav {
     margin-left: 10px;
+    padding: 12px 0px;
 }
 
 .icon{
@@ -119,18 +120,25 @@ div.center-nav{
     vertical-align: sub;
 }
 
-.footer-nav{
-    padding: 10px 0;
-}
-
 .icon-big{
     font-size: 1.5rem;
 }
 
 div.description{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    margin-top: 2px;
 }
 
 .footer-item{
     margin-right: 15px;
+}
+
+.green{
+    color: green;
+}
+
+.right-nav{
+    color: red;
+    background-color: gray;
+    width: 10%;  
 }
