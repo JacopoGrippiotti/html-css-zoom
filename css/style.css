@@ -37,19 +37,13 @@ body{
 
 .card{
     width:calc( (100% / 7) - 7px );
-    margin-top: 9px;
-    margin-right: 5px;
+    margin-top: 11px;
     position: relative;
 }
 
 footer{
     background-color: coral;
-    padding: 26px;
-    margin-top: 23px;
-}
-
-.footer-nav{
-    height: 100%;
+    margin-top: 40px;
 }
 
 .video-audio,
@@ -93,4 +87,24 @@ div.text-white{
     padding: 2px;
 }
 
+.text-center{
+    text-align: center;
+}
 
+.left-nav,
+.right-nav{
+    width: 15%;
+}
+
+.center-nav{
+    width: 40%;
+}
+
+div.left-nav div{
+    margin-left: 10px;
+}
+
+.icon{
+    font-size: 0.8rem;
+    vertical-align: sub;
+}
