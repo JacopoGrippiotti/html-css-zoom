@@ -12,11 +12,19 @@
     justify-content: space-between;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
 .align-between{
     align-content:space-between;
 }
 .wrap{
     flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
 }
 
 .flex-end{
@@ -97,14 +105,19 @@ div.text-white{
 }
 
 .center-nav{
-    width: 40%;
+    width: 50%;
 }
 
-div.left-nav div{
+div.left-nav,
+div.center-nav div{
     margin-left: 10px;
 }
 
 .icon{
     font-size: 0.8rem;
     vertical-align: sub;
+}
+
+.right-nav{
+    
 }
