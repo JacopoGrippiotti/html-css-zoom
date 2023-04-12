@@ -50,8 +50,9 @@ body{
 }
 
 footer{
-    background-color: coral;
-    margin-top: 40px;
+    background-color:#222222 ;
+    margin-top: 20px;
+    color: white;
 }
 
 .video-audio,
@@ -108,16 +109,28 @@ div.text-white{
     width: 50%;
 }
 
-div.left-nav,
-div.center-nav div{
+div.left-nav  ,
+div.center-nav{
     margin-left: 10px;
 }
 
 .icon{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     vertical-align: sub;
 }
 
-.right-nav{
-    
+.footer-nav{
+    padding: 10px 0;
+}
+
+.icon-big{
+    font-size: 1.5rem;
+}
+
+div.description{
+    font-size: 0.9rem;
+}
+
+.footer-item{
+    margin-right: 15px;
 }
